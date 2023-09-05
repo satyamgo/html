@@ -1,0 +1,137 @@
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    color: red;
+    padding-left: 20px;
+
+}
+.nav1{
+position: sticky;
+height: 100px;
+top: 0;
+margin: 0px auto;
+padding: 0;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-bottom: 0;
+background-color: #ffff;
+}
+.searchbar{
+    width: 400px; 
+    display: flex;
+    gap: 4px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    opacity: 0.7;
+    padding: 0px 1px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-left: -20px;
+}
+.searchbar:hover{
+    box-shadow: 1px 1px 1px;
+}
+.tex2{
+    opacity: 0.6;
+}
+.text1{
+   font-weight: bolder;
+
+}
+.rightsection{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.image{
+    width: 50px;
+    border-radius:50%;
+}
+.nav2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 100px;
+    margin-top: 10px;
+    background-color: #ffff;
+    padding: 10px ;
+    z-index: 100;
+}
+.tag1{
+    opacity: 0.5;
+   text-align: center;
+}
+.tag1:hover{
+    opacity: 0.8;
+}
+.sub-heading{
+    margin-top: -2px;
+    font-size: smaller;
+   
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card
+{
+    width: 300px;
+}  
+.card-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-image{
+    border-radius: 14px;
+    width: 300px;
+    height: 250px;
+}
+.star{
+    margin-right: -130px;
+    margin-top:-5px ;
+}
+.info{
+  margin-top: -25px;
+  font-size: smaller;
+  opacity: 0.8;
+}
+.text-info{
+    margin-top: -5px;
+}
+.mgnify{
+    background-color: red;
+    padding: 6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+.box{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 0px 15px;
+    border-radius: 40px;
+    gap: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    transition: .5s;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+
+
